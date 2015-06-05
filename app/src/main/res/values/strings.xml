@@ -3,4 +3,5 @@
 
     <string name="crime_title_hint">Enter a title for the crime.</string>
     <string name="testrepo">This is my test</string>
+    <string name="goingtheotherway">second test</string>
 </resources>
