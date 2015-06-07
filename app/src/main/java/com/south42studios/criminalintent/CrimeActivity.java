@@ -1,15 +1,12 @@
 package com.south42studios.criminalintent;
 
+import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
-import android.support.v4.app.FragmentActivity;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 
 
-public class CrimeActivity extends FragmentActivity {
+public class CrimeActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +20,7 @@ public class CrimeActivity extends FragmentActivity {
             fragment = new CrimeFragment();
             fm.beginTransaction().add(R.id.fragmentContainer,fragment).commit();
         }
+
     }
 
 }
