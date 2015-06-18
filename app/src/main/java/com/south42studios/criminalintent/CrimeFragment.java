@@ -52,7 +52,7 @@ public class CrimeFragment extends Fragment{
         });
 
         mDateButton = (Button) v.findViewById(R.id.crime_date);
-        String format = new SimpleDateFormat("EEE,MMM d,yyyy").format(mCrime.getDate());
+        String format = new SimpleDateFormat("EEE. MMM d, yyyy").format(mCrime.getDate());
         mDateButton.setText(format);
         mDateButton.setEnabled(false);
 
